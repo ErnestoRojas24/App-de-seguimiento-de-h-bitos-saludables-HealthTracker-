@@ -1,6 +1,10 @@
 # App-de-seguimiento-de-h-bitos-saludables-HealthTracker-
 Diseñar y desarrollar una aplicación móvil que permita a los usuarios registrar y monitorear sus hábitos diarios (ejercicio, consumo de agua, horas de sueño) para fomentar un estilo de vida saludable mediante recordatorios automáticos y reportes personalizados.
 
+# Proyecto HealthTracker
+
+## Diagrama de Proceso del Proyecto
+```mermaid
 graph TD
     A[🚀 INICIO<br/>Definición del Proyecto] --> A1[Análisis de Requisitos<br/>- Identificar hábitos a monitorear<br/>- Definir funcionalidades core<br/>- Establecer objetivos]
     A1 --> A2[Estudio de Viabilidad<br/>- Evaluación técnica Python<br/>- Análisis de escalabilidad<br/>- Selección de tecnologías]

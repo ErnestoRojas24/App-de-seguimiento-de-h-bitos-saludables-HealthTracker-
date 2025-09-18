@@ -1,2 +1,44 @@
 # App-de-seguimiento-de-h-bitos-saludables-HealthTracker-
 Diseñar y desarrollar una aplicación móvil que permita a los usuarios registrar y monitorear sus hábitos diarios (ejercicio, consumo de agua, horas de sueño) para fomentar un estilo de vida saludable mediante recordatorios automáticos y reportes personalizados.
+
+graph TD
+    A[🚀 INICIO<br/>Definición del Proyecto] --> A1[Análisis de Requisitos<br/>- Identificar hábitos a monitorear<br/>- Definir funcionalidades core<br/>- Establecer objetivos]
+    A1 --> A2[Estudio de Viabilidad<br/>- Evaluación técnica Python<br/>- Análisis de escalabilidad<br/>- Selección de tecnologías]
+    
+    A2 --> B[📋 PLANEACIÓN<br/>Diseño y Arquitectura]
+    B --> B1[Diseño de la Aplicación<br/>- Wireframes y mockups<br/>- Definir base de datos<br/>- Arquitectura del sistema]
+    B1 --> B2[Planificación Técnica<br/>- Configuración VS Code<br/>- Estructura del proyecto<br/>- Librerías y dependencias]
+    B2 --> B3[Cronograma y Recursos<br/>- Timeline de desarrollo<br/>- Asignación de tareas<br/>- Plan de testing]
+    
+    B3 --> C[⚙️ EJECUCIÓN<br/>Desarrollo y Construcción]
+    C --> C1[Desarrollo Backend<br/>- Lógica de negocio en Python<br/>- Gestión de datos de usuarios<br/>- Sistema de recordatorios]
+    C1 --> C2[Desarrollo Frontend<br/>- Interfaz de usuario<br/>- Formularios de registro<br/>- Dashboards y reportes]
+    C2 --> C3[Integración y Testing<br/>- Pruebas unitarias<br/>- Testing de funcionalidades<br/>- Depuración y optimización]
+    C3 --> C4[Preparación para Escalabilidad<br/>- Evaluación Web vs Móvil<br/>- Arquitectura escalable<br/>- Documentación técnica]
+    
+    C4 --> D[✅ CIERRE<br/>Entrega y Despliegue]
+    D --> D1[Testing Final<br/>- Pruebas de usuario<br/>- Validación de requisitos<br/>- Corrección de bugs]
+    D1 --> D2[Despliegue<br/>- Preparación del entorno<br/>- Implementación inicial<br/>- Configuración de producción]
+    D2 --> D3[Entrega y Documentación<br/>- Manual de usuario<br/>- Documentación técnica<br/>- Plan de mantenimiento]
+    D3 --> D4[Evaluación Post-Implementación<br/>- Análisis de rendimiento<br/>- Feedback de usuarios<br/>- Plan de mejoras futuras]
+    
+    D4 --> E[🔄 FASE OPCIONAL<br/>Escalabilidad Móvil]
+    E --> E1[Evaluación de Migración<br/>- Análisis de viabilidad móvil<br/>- Selección de framework<br/>- Planning de adaptación]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    
+    classDef startNode fill:#4caf50,color:#fff
+    classDef planNode fill:#9c27b0,color:#fff
+    classDef execNode fill:#2196f3,color:#fff
+    classDef closeNode fill:#ff9800,color:#fff
+    classDef optionalNode fill:#e91e63,color:#fff
+    
+    class A startNode
+    class B planNode
+    class C execNode
+    class D closeNode
+    class E optionalNode
